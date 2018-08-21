@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/ninjaturtle"
+    tools:context="com.example.hp.firstapp.Demo_CustomToast">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click and Reveal"
+        android:textColor="#51b110"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="#f4d437"
+        android:id="@+id/text"
+        android:onClick="submit"
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200sp"/>
+        //android:src="@drawable/hands"
+
+
+</LinearLayout>

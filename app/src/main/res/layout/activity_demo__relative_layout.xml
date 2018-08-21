@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.firstapp.Demo_RelativeLayout">
+
+    <TextView
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="Enter your Name"
+        android:textColor="#123"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#9df17f"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="D.O.B"
+        android:textColor="#123"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#fdf273"
+        android:layout_alignParentRight="true"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textColor="#ec0945"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="122dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginTop="88dp" />
+
+</RelativeLayout>
